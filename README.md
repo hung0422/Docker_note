@@ -82,9 +82,9 @@ chmod +x /usr/local/bin/docker-compose
   * -e：設定環境變數(AAA=BBB)
   * -p：Port 對應(host port:container port)
   * -v：資料對應(host folder:container folder)
-  * -i ：讓容器的標準輸入保持打開
-  * -i ：讓容器的標準輸入保持打開
-  * -i ：讓容器的標準輸入保持打開
+  * --name ：設定容器名稱
+  * --link ：串接其他容器
+  * --network ： 加入指定網路
 
       
 ###### Registry (倉庫) 常用指令
